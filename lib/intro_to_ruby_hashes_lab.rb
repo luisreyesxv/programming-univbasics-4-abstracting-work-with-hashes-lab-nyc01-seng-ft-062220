@@ -10,6 +10,6 @@ end
 
 def update_counting_hash(hash, key)
   hash.fetch(key){|i| hash[i]=0}
-  hash[key ]+=1
+  hash[key]+=1
   hash
 end
